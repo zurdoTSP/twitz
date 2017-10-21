@@ -1,8 +1,8 @@
 import tweepy
 class Twipz:
     def __init__(self):
-        self.__CONSUMER_KEY ='buspKfIbkVJ2tP2cDWdOxS0IV'
-        self.__CONSUMER_SECRET='WNctWXrbfiI0s9OtQAZy9Sn7n7JzjOkVckjdSxOhCOlVsdGksa'
+        self.__CONSUMER_KEY =''
+        self.__CONSUMER_SECRET=''
         self.__access_key=""
         self.__access_secret=""
         self.__auth = tweepy.OAuthHandler(self.__CONSUMER_KEY,self.__CONSUMER_SECRET)
